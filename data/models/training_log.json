@@ -1,0 +1,112 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.114482,
+    "val_loss": 0.067742,
+    "val_pos_score": 0.339057,
+    "val_neg_score": -0.443165,
+    "separation": 0.782222,
+    "lr": 0.001,
+    "time_sec": 6.6
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.072249,
+    "val_loss": 0.059462,
+    "val_pos_score": 0.340253,
+    "val_neg_score": -0.450238,
+    "separation": 0.790491,
+    "lr": 0.001,
+    "time_sec": 6.8
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.066506,
+    "val_loss": 0.061762,
+    "val_pos_score": 0.327076,
+    "val_neg_score": -0.45651,
+    "separation": 0.783586,
+    "lr": 0.001,
+    "time_sec": 7.0
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.063581,
+    "val_loss": 0.059533,
+    "val_pos_score": 0.341553,
+    "val_neg_score": -0.451743,
+    "separation": 0.793296,
+    "lr": 0.001,
+    "time_sec": 6.7
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.06054,
+    "val_loss": 0.059225,
+    "val_pos_score": 0.345705,
+    "val_neg_score": -0.45043,
+    "separation": 0.796136,
+    "lr": 0.001,
+    "time_sec": 7.4
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.058838,
+    "val_loss": 0.058262,
+    "val_pos_score": 0.355431,
+    "val_neg_score": -0.444158,
+    "separation": 0.79959,
+    "lr": 0.001,
+    "time_sec": 6.8
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.057012,
+    "val_loss": 0.058429,
+    "val_pos_score": 0.341327,
+    "val_neg_score": -0.452087,
+    "separation": 0.793413,
+    "lr": 0.001,
+    "time_sec": 6.6
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.055571,
+    "val_loss": 0.058029,
+    "val_pos_score": 0.340596,
+    "val_neg_score": -0.450568,
+    "separation": 0.791165,
+    "lr": 0.001,
+    "time_sec": 6.6
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.055443,
+    "val_loss": 0.058843,
+    "val_pos_score": 0.351715,
+    "val_neg_score": -0.447216,
+    "separation": 0.798931,
+    "lr": 0.001,
+    "time_sec": 6.5
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.053832,
+    "val_loss": 0.062137,
+    "val_pos_score": 0.3726,
+    "val_neg_score": -0.440187,
+    "separation": 0.812788,
+    "lr": 0.001,
+    "time_sec": 6.7
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.052714,
+    "val_loss": 0.058408,
+    "val_pos_score": 0.364902,
+    "val_neg_score": -0.441937,
+    "separation": 0.80684,
+    "lr": 0.001,
+    "time_sec": 6.9
+  }
+]

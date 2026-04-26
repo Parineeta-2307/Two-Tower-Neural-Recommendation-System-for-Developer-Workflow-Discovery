@@ -1,0 +1,69 @@
+{
+  "model_metrics": {
+    "ndcg_at_10": 0.9711,
+    "recall_at_50": 0.3815
+  },
+  "ab_simulation": {
+    "control": {
+      "method": "random_shuffle",
+      "ndcg_at_10": 0.2639,
+      "recall_at_50": 0.1
+    },
+    "treatment": {
+      "method": "two_tower_model",
+      "ndcg_at_10": 0.9711,
+      "recall_at_50": 0.3815
+    },
+    "improvement": {
+      "ndcg_ratio": 3.68,
+      "recall_ratio": 3.81
+    }
+  },
+  "per_archetype": {
+    "scrum_team_member": {
+      "ndcg_at_10": 0.9718,
+      "recall_at_50": 0.4859,
+      "n_users": 177
+    },
+    "kanban_ops": {
+      "ndcg_at_10": 0.9756,
+      "recall_at_50": 0.3252,
+      "n_users": 123
+    },
+    "design_sprint_pm": {
+      "ndcg_at_10": 0.9864,
+      "recall_at_50": 0.3288,
+      "n_users": 147
+    },
+    "ml_researcher": {
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 0.5,
+      "n_users": 74
+    },
+    "solo_hacker": {
+      "ndcg_at_10": 1.0,
+      "recall_at_50": 0.3333,
+      "n_users": 136
+    },
+    "platform_engineer": {
+      "ndcg_at_10": 0.9442,
+      "recall_at_50": 0.3148,
+      "n_users": 124
+    },
+    "oss_contributor": {
+      "ndcg_at_10": 0.9429,
+      "recall_at_50": 0.474,
+      "n_users": 105
+    },
+    "incident_responder": {
+      "ndcg_at_10": 0.9474,
+      "recall_at_50": 0.3163,
+      "n_users": 114
+    }
+  },
+  "config": {
+    "n_test_users": 1000,
+    "n_workflows": 500,
+    "embedding_dim": 128
+  }
+}

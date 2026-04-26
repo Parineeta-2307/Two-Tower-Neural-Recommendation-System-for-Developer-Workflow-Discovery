@@ -1,0 +1,74 @@
+{
+  "model_features": [
+    "issue_count_log",
+    "pr_count_log",
+    "push_count_log",
+    "repo_diversity_log",
+    "label_diversity_log",
+    "sprint_velocity_log",
+    "activity_score_log",
+    "collab_density",
+    "recency_weight",
+    "pr_ratio",
+    "issue_ratio"
+  ],
+  "norm_features": [
+    "issue_count_log_norm",
+    "pr_count_log_norm",
+    "push_count_log_norm",
+    "repo_diversity_log_norm",
+    "label_diversity_log_norm",
+    "sprint_velocity_log_norm",
+    "activity_score_log_norm",
+    "collab_density_norm",
+    "recency_weight_norm",
+    "pr_ratio_norm",
+    "issue_ratio_norm"
+  ],
+  "stats": {
+    "issue_count_log": {
+      "min": 1.0986122886681098,
+      "max": 5.5134287461649825
+    },
+    "pr_count_log": {
+      "min": 1.0986122886681098,
+      "max": 5.58724865840025
+    },
+    "push_count_log": {
+      "min": 1.0986122886681098,
+      "max": 5.8888779583328805
+    },
+    "repo_diversity_log": {
+      "min": 1.0986122886681098,
+      "max": 4.990432586778736
+    },
+    "label_diversity_log": {
+      "min": 1.0986122886681098,
+      "max": 4.343805421853684
+    },
+    "sprint_velocity_log": {
+      "min": 1.0986122886681098,
+      "max": 4.189654742026425
+    },
+    "activity_score_log": {
+      "min": 2.1972245773362196,
+      "max": 6.052089168924417
+    },
+    "collab_density": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "recency_weight": {
+      "min": 0.2,
+      "max": 1.0
+    },
+    "pr_ratio": {
+      "min": 0.0031645569620253164,
+      "max": 0.9431818181818182
+    },
+    "issue_ratio": {
+      "min": 0.0037313432835820895,
+      "max": 0.972972972972973
+    }
+  }
+}
