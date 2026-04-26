@@ -1,6 +1,6 @@
 # Two-Tower Neural Recommendation System for Developer Workflow Discovery
 
-**Jira for your Jira -- recommends the right workflow before you know you need it.**
+**Jira for your Jira - recommends the right workflow before you know you need it.**
 
 A production-grade recommendation system that analyzes developer activity patterns (issues, PRs, commits, repo diversity) and recommends optimal team workflows using a two-tower neural architecture with FAISS retrieval.
 
@@ -59,9 +59,9 @@ Per-archetype nDCG@10: all 8 archetypes score above 0.94, with `ml_researcher` a
 
 1. **Decoupled encoding enables real-time serving.** Item embeddings are precomputed and indexed. At query time, only the user-side forward pass runs (11-dim input, two linear layers). This is the same architecture YouTube, Google, and Spotify use for candidate generation at scale.
 
-2. **Dot-product retrieval scales to millions of items.** Because both towers produce L2-normalized embeddings, cosine similarity reduces to a dot product -- which FAISS computes over millions of vectors in milliseconds using approximate nearest neighbor search.
+2. **Dot-product retrieval scales to millions of items.** Because both towers produce L2-normalized embeddings, cosine similarity reduces to a dot product, which FAISS computes over millions of vectors in milliseconds using approximate nearest neighbor search.
 
-3. **Cold-start resilient.** New users get recommendations from their activity features alone (no interaction history required). New workflows get embeddings from their text description via the sentence-transformer -- no retraining needed.
+3. **Cold-start resilient.** New users get recommendations from their activity features alone (no interaction history required). New workflows get embeddings from their text description via the sentence-transformer, no retraining needed.
 
 ---
 
@@ -111,7 +111,7 @@ two_tower_recsys/
 ### Prerequisites
 
 - Python 3.10+ (tested on 3.13)
-- No GPU required -- runs entirely on CPU
+- No GPU required- runs entirely on CPU
 
 ### Installation
 
