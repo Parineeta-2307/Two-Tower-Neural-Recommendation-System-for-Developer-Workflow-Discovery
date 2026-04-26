@@ -4,10 +4,6 @@
 
 A production-grade recommendation system that analyzes developer activity patterns (issues, PRs, commits, repo diversity) and recommends optimal team workflows using a two-tower neural architecture with FAISS retrieval.
 
-**[GitHub]**(https://github.com/Parineeta-2307/Two-Tower-Neural-Recommendation-System-for-Developer-Workflow-Discovery)
-
----
-
 ## Results
 
 Evaluated on 1,000 held-out test users across 8 developer archetypes:
